@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+   <div class="container">
+       <div class="navbar">
+	        <img src="C:\Users\LENOVO\Pictures\aLeoSign.png" class="logo"></img>
+			<nav>
+			<ul id=menuList>
+			      <li><a href="">Menu</a></li>
+				  <li><a href="">About</a></li>
+				  <li><a href="">Contacts</a></li>
+				  <li><a href="">Profile</a></li>
+			   </ul>
+			</nav>
+			<img src="C:\Users\LENOVO\Pictures\MEmu Photo\menu.png" class="menu-icon"
+			onclick="togglemenu()">
+	   </div>
+	   
+	   <div class="row">
+	       <div class="col-1">
+		       <h2>Hey there!<br> Welcome</h2>
+			   <h3>Hi, I'm Roselle</h3>
+			   <p>20 yrs old</p>
+			   <h4>"To live for the hope of it all"</h4>
+			   <button type="button">Know more<img src="C:\Users\LENOVO\Pictures\arrow\Screenshot__1264_-removebg-preview.png">
+			   </button>
+	  </div>
+	  <div class="row">
+	       <div class="col-2">
+		      <img src="C:\Users\LENOVO\Pictures\Saved Pictures\controller.png" class="controller">
+	  </div>
+	  </div>
+	  </div>
+	 
+ </div>
+ 
+     <script>
+	 
+	    var menuList = document.getElementById("menuList");
+		 
+		menuList.style.maxHeight = "0px";
+		 
+		function togglemenu(){
+		 
+		    if(menuList.style.maxHeight == "0px")
+			    {
+			         menuList.style.maxHeight = "130px";
+			    }
+			else
+			    {
+			         menuList.style.maxHeight = "0px"
+			    }
+	     }
+	 
+	 </script>
+ 
+</body>
+</html>
